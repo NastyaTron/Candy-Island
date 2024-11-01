@@ -1,5 +1,10 @@
-@import './header.scss';
-@import './vite-promo.scss';
+@import './component/header.scss';
+@import './component/about.scss';
+@import './component/features.scss';
+@import './component/footer.scss';
+@import './component/gallery.scss';
+@import './component/home.scss';
+@import './component/how.scss';
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
