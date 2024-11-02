@@ -5,15 +5,24 @@
 @import './component/gallery.scss';
 @import './component/home.scss';
 @import './component/how.scss';
+@import './component/page-privacy-policy.scss';
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Fredoka One', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  color: #000;
+  background-image: linear-gradient(
+    180deg,
+    #fef3be 0%,
+    #fbde92 50%,
+    #f7c359 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
