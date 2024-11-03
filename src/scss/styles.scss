@@ -10,7 +10,7 @@
 :root {
 
   body {
-    padding: 90px;
+    padding-top: 90px;
     font-family: 'Montserrat', serif;
     background: linear-gradient(
       180deg,
@@ -49,22 +49,22 @@
   font-weight: 400;
 
   color: #000;
-  background-image: linear-gradient(
-    180deg,
-    #fef3be 0%,
-    #fbde92 50%,
-    #f7c359 100%
-  );
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  max-width: 320px;
+  // background-image: linear-gradient(
+  //   180deg,
+  //   #fef3be 0%,
+  //   #fbde92 50%,
+  //   #f7c359 100%
+  // );
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // max-width: 320px;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  @media (min-width: 1200px) {
-    max-width: 1200px;
-  }
+  // @media (min-width: 1200px) {
+  //   max-width: 1200px;
+  // }
 }
