@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/<REPO>/",
+    "build": "vite build --base=/Candy-island/",
     "preview": "vite preview",
     "build:preview": "vite build && vite preview",
     "predeploy": "npm run build",
