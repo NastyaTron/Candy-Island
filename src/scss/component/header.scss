@@ -1,9 +1,12 @@
 
 .header {
   position: fixed;
+  width: 320px;
+  height: 123px;
   top: 0px;
   left: 50%;
   transform: translate(-50%, 0);
+  padding-top: 50px;
   background-color: #fef2bc;
 }
 
@@ -79,6 +82,10 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .header {
+    width: auto;
+  height: auto;
+  }
   .header .container {
     padding-left: 64px;
     padding-right: 260px;
