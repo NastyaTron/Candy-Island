@@ -4,6 +4,7 @@
   top: 0px;
   left: 50%;
   transform: translate(-50%, 0);
+  background-color: #fef2bc;
 }
 
 .header .container {
@@ -36,12 +37,17 @@
   font-weight: 700;
   line-height: 1.21;
 }
+.nav-item a:hover, .nav-item a:focus {
+  text-decoration: underline;
+}
 .burger-button {
   display: block;
   margin: 0 auto;
   background: none;
   border: none;
 }
+
+
 .burger-icon {
   width: 48px;
   height: 48px;
