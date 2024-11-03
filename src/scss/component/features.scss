@@ -8,7 +8,7 @@
   background-position: top 89px left 9px, top 130px right 25px,
     top 235px left 20px, top 210px right 45px, bottom 167px right 47px,
     bottom 108px left 30px;
-  @include media(desktop) {
+  @media (min-width: 1200px) {
     padding: 80px 125px;
     background-image: url(/img/features/desktop/1-desktop-1x.png),
       url(/img/features/desktop/2-desktop-1x.png),
@@ -32,7 +32,7 @@
       url(/img/features/4-mob-2x.png), url(/img/features/5-mob-2x.png),
       url(/img/features/6-mob-2x.png);
     background-size: 62px;
-    @include media(desktop) {
+    @media (min-width: 1200px) {
       background-image: url(/img/features/desktop/1-desktop-2x.png),
         url(/img/features/desktop/2-desktop-2x.png),
         url(/img/features/desktop/3-desktop-2x.png),
@@ -51,7 +51,7 @@
   font-size: 22px;
   text-shadow: 0 4px 9px rgba(0, 0, 0, 0.54);
   padding-bottom: 16px;
-  @include media(desktop) {
+  @media (min-width: 1200px) {
     font-size: 44px;
     padding-bottom: 52px;
   }
@@ -66,7 +66,7 @@
   list-style-position: inside;
   line-height: 1.2;
   margin-bottom: 12px;
-  @include media(desktop) {
+  @media (min-width: 1200px) {
     font-size: 20px;
     margin-bottom: 50px;
     line-height: 2.4;
@@ -74,7 +74,7 @@
 }
 .features-item {
   padding-bottom: 20px;
-  @include media(desktop) {
+  @media (min-width: 1200px) {
     padding-bottom: 36px;
   }
 }
@@ -91,7 +91,7 @@
   height: auto;
   width: 126px;
   height: 42px;
-  @include media(desktop) {
+  @media (min-width: 1200px) {
     width: 268px;
     height: 81px;
   }

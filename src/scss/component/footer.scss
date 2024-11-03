@@ -5,7 +5,7 @@
   align-items: center;
   padding: 25px 0;
   gap: 11px;
-  @include media(desktop) {
+  @media (min-width: 1200px) {
     flex-direction: row;
     padding: 48px 82px 60px 0;
     justify-content: flex-end;
@@ -18,7 +18,7 @@
   font-size: 8px;
   letter-spacing: 0.01em;
   line-height: 1;
-  @include media(desktop) {
+  @media (min-width: 1200px) {
     font-size: 16px;
     letter-spacing: 0.02em;
   }
@@ -31,7 +31,7 @@
   letter-spacing: 0.01em;
   text-decoration: underline;
   text-decoration-skip-ink: none;
-  @include media(desktop) {
+  @media (min-width: 1200px) {
     font-size: 16px;
     letter-spacing: 0.02em;
   }
@@ -44,7 +44,7 @@
   line-height: 1;
   text-decoration: underline;
   text-decoration-skip-ink: none;
-  @include media(desktop) {
+  @media (min-width: 1200px) {
     font-size: 16px;
     letter-spacing: 0.02em;
   }
