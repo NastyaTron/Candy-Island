@@ -8,7 +8,42 @@
 @import './component/page-privacy-policy.scss';
 
 :root {
+
+  body {
+    padding: 90px;
+    font-family: 'Montserrat', serif;
+    background: linear-gradient(
+      180deg,
+      #fef2bc 0%,
+      #fff6c4 9.95%,
+      #fff6c4 18.36%,
+      #fbde91 48.5%,
+      #f6c358 100%
+    );
+  }
+
+  .container {
+    max-width: 320px;
+    // padding-left: 18px;
+    // padding-right: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+  }
+
+  @media screen and (min-width: 1200px) {
+    .container {
+      max-width: 1200px;
+    //   padding-left: 129px;
+    // padding-right: 129px;
+    }
+  }
+
+  
+
   font-family: 'Fredoka One', sans-serif;
+
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;

@@ -1,1 +1,213 @@
 
+.header {
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.header .container {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.header-container {
+  position: relative;
+  display: flex;
+  column-gap: 35px;
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+  position: absolute;
+
+  padding: 18px 77px;
+
+  background-color: rgba(255, 151, 55, 1);
+  box-shadow: 0px 8px 4px 0px rgba(242, 102, 0, 0.47);
+  border-radius: 15px;
+}
+.nav-item {
+  cursor: pointer;
+}
+.nav-item a {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.21;
+}
+.burger-button {
+  display: block;
+  margin: 0 auto;
+  background: none;
+  border: none;
+}
+.burger-icon {
+  width: 48px;
+  height: 48px;
+}
+.close-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.nav-button {
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  background-color: transparent;
+  border: none;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 12px;
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .header .container {
+    padding-left: 64px;
+    padding-right: 260px;
+    width: 1200px;
+  }
+  .header-container {
+    position: static;
+    column-gap: 0px;
+    justify-content: flex-start;
+  }
+
+  .header-logo {
+    margin-right: 46px;
+  }
+
+  .burger-button {
+    display: none;
+  }
+
+  .backdrop.is-hidden {
+    position: static;
+    justify-content: flex-start;
+    opacity: 1;
+    background: none;
+    pointer-events: auto;
+  }
+
+  .nav-button {
+    display: none;
+  }
+  .nav {
+    position: static;
+    // width: 100%;
+
+    max-width: 680px;
+    padding: 15px 28px;
+  }
+  .nav-list {
+    max-width: 650px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 26px;
+  }
+  .nav-item a {
+    font-size: 20px;
+  }
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  margin: 0 auto;
+  // background: rgba(46, 47, 66, 0.4);
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: var(--animatin-time);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+// .header {
+//   padding: 20px 0;
+// }
+
+// .nav-list {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   gap: 40px;
+
+//   @include media(tablet) {
+//     justify-content: flex-start;
+//   }
+
+//   @include media(desktop) {
+//     justify-content: flex-end;
+//   }
+// }
+
+// .nav-link {
+//   font-weight: 500;
+//   letter-spacing: 0.02em;
+//   @include font(30, 40);
+//   color: $_header_color;
+// }
+
+// .nav-link:hover,
+// .nav-link:focus {
+//   color: $_header_accent_color;
+// }
+
+// .crush-text {
+//       position: relative;
+//       font-family: 'Luckiest Guy', cursive;
+//       font-size: 32px;
+//       font-weight: 400;
+//       line-height: 1;
+//       color: white;
+//       text-align: left;
+//       display: inline-block;
+//       padding: 8px 12px;
+
+//       /* Тень для неровного эффекта */
+
+//       text-shadow:
+//                    -2px 0px 2px rgba(255, 122, 0, 1),
+//                    -10px 0px 0px rgb(11, 241, 23),
+//                    2px 0px 2px rgba(255, 122, 0, 1),
+//                    10px 0px 0px rgb(11, 241, 23),
+//                    0px -2px 2px rgba(255, 122, 0, 1),
+//                    0px -10px 0px rgb(11, 241, 23),
+//                    0px 2px 2px rgba(255, 122, 0, 1),
+//                    0px 10px 0px rgb(11, 241, 23);
+//     }
+
+// box-shadow: 0px 3px 0px 0px rgba(255, 122, 0, 1);
+
+//     /* Подложка с градиентом */
+//     .crush-text::before {
+//       content: "";
+//       position: absolute;
+//       top: 0;
+//       left: 0;
+//       right: 0;
+//       bottom: 0;
+//       z-index: -1;
+//       border-radius: 5px; /* Добавляет немного неровности */
+//       background: linear-gradient(180deg, #ED236C -22%, #F37500 36.56%, #F3EA07 100%);
+//       padding: 8px; /* Имитация обводки */
+//     }
+
+
+
