@@ -1,4 +1,5 @@
 .features-container {
+  max-width: 320px;
   padding: 62px 32px;
   background-image: url(/img/features/1-mob-1x.png),
     url(/img/features/2-mob-1x.png), url(/img/features/3-mob-1x.png),
@@ -9,6 +10,7 @@
     top 235px left 20px, top 210px right 45px, bottom 167px right 47px,
     bottom 108px left 30px;
   @media (min-width: 1200px) {
+    max-width: 1200px;
     padding: 80px 125px;
     background-image: url(/img/features/desktop/1-desktop-1x.png),
       url(/img/features/desktop/2-desktop-1x.png),
