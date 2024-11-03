@@ -105,6 +105,7 @@
     <script>
       document.addEventListener('DOMContentLoaded', function () {
         const headerContainer = document.getElementById('headerContainer');
+        
 
         function loadHeader() {
           fetch('./partials/header.html')
@@ -135,8 +136,10 @@
         }
 
         window.addEventListener('resize', adjustHeaderVisibility);
+        
 
         loadHeader();
+        adjustHeaderVisibility();
       });
     </script>
   </body>
