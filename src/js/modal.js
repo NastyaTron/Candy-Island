@@ -8,7 +8,7 @@
 
   refs.openModalBtn.addEventListener('click', toggleModal);
   refs.closeModalBtn.addEventListener('click', toggleModal);
-  console.log(refs.links);
+  
 
   refs.links.forEach(link => {
     if (link) {
