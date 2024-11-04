@@ -1,35 +1,134 @@
-<section id="gallery">
+<section id="gallery" class="gallery">
   <div class="container">
+    <h2 class="gallery_header">Gallery</h2>
     <div class="swiper">
-      <!-- Additional required wrapper -->
-
-      <!-- Slides -->
       <ul class="swiper-wrapper">
         <li class="swiper-slide">
-          <img
-            srcset="
-              ./img/home/home_image_clr.png    1x,
-              ./img/home/home_image_clr_2x.png 2x
-            "
-            src="./img/home/home_image_clr.png"
-            alt="screenshots from game"
-          />
+          <picture>
+            <source
+              srcset="
+                ./img/gallery/slide1_desktop_1x.jpg 1x,
+                ./img/gallery/slide1_desktop_2x.jpg 2x
+              "
+              media="(min-width: 1200px)"
+            />
+            <source
+              srcset="
+                ./img/gallery/slide1_mob_1x.jpg 1x,
+                ./img/gallery/slide1_mob_2x.jpg 2x
+              "
+              media="(max-width: 1199.98px)"
+            />
+            <img
+              src="./img/gallery/slide1_mob_1x.jpg"
+              alt="screenshots from game"
+              width="140"
+              height="292"
+            />
+          </picture>
+        </li>
+        <li class="swiper-slide">
+          <picture>
+            <source
+              srcset="
+                ./img/gallery/slide2_desktop_1x.jpg 1x,
+                ./img/gallery/slide2_desktop_2x.jpg 2x
+              "
+              media="(min-width: 1200px)"
+            />
+            <source
+              srcset="
+                ./img/gallery/slide2_mob_1x.jpg 1x,
+                ./img/gallery/slide2_mob_2x.jpg 2x
+              "
+              media="(max-width: 1199.98px)"
+            />
+            <img
+              src="./img/gallery/slide2_mob_1x.jpg"
+              alt="screenshots from game"
+              width="140"
+              height="292"
+            />
+          </picture>
+        </li>
+        <li class="swiper-slide">
+          <picture>
+            <source
+              srcset="
+                ./img/gallery/slide3_desktop_1x.jpg 1x,
+                ./img/gallery/slide3_desktop_2x.jpg 2x
+              "
+              media="(min-width: 1200px)"
+            />
+            <source
+              srcset="
+                ./img/gallery/slide3_mob_1x.jpg 1x,
+                ./img/gallery/slide3_mob_2x.jpg 2x
+              "
+              media="(max-width: 1199.98px)"
+            />
+            <img
+              src="./img/gallery/slide3_mob_1x.jpg"
+              alt="screenshots from game"
+              width="140"
+              height="292"
+            />
+          </picture>
+        </li>
+        <li class="swiper-slide">
+          <picture>
+            <source
+              srcset="
+                ./img/gallery/slide4_desktop_1x.jpg 1x,
+                ./img/gallery/slide4_desktop_2x.jpg 2x
+              "
+              media="(min-width: 1200px)"
+            />
+            <source
+              srcset="
+                ./img/gallery/slide4_mob_1x.jpg 1x,
+                ./img/gallery/slide4_mob_2x.jpg 2x
+              "
+              media="(max-width: 1199.98px)"
+            />
+            <img
+              src="./img/gallery/slide4_mob_1x.jpg"
+              alt="screenshots from game"
+              width="140"
+              height="292"
+            />
+          </picture>
+        </li>
+        <li class="swiper-slide">
+          <picture>
+            <source
+              srcset="
+                ./img/gallery/slide5_desktop_1x.jpg 1x,
+                ./img/gallery/slide5_desktop_2x.jpg 2x
+              "
+              media="(min-width: 1200px)"
+            />
+            <source
+              srcset="
+                ./img/gallery/slide5_mob_1x.jpg 1x,
+                ./img/gallery/slide5_mob_2x.jpg 2x
+              "
+              media="(max-width: 1199.98px)"
+            />
+            <img
+              src="./img/gallery/slide5_mob_1x.jpg"
+              alt="screenshots from game"
+              width="140"
+              height="292"
+            />
+          </picture>
         </li>
       </ul>
-      <div class="swiper-slide">Slide 1</div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
-      ...
 
-      <!-- If we need pagination -->
       <div class="swiper-pagination"></div>
 
-      <!-- If we need navigation buttons -->
       <div class="swiper-button-prev"></div>
       <div class="swiper-button-next"></div>
-
-      <!-- If we need scrollbar -->
-      <div class="swiper-scrollbar"></div>
     </div>
   </div>
 </section>

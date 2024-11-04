@@ -1,0 +1,79 @@
+.gallery{
+    margin-bottom: 68px;
+}
+
+.gallery .container {
+    padding-left: 49px;
+    padding-right: 49px;
+}  
+
+.gallery_header {
+    margin-bottom: 12px;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.22px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+
+.swiper {
+    height: 320px;
+    --swiper-pagination-color: black;
+    --swiper-navigation-size: 24px;         /* Размер кнопок */
+    --swiper-navigation-top-offset: 50%;    /* Смещение по вертикали */
+    --swiper-navigation-sides-offset: 0px; /* Смещение от боков */
+    --swiper-navigation-color: black;        /* Цвет кнопок */
+    --swiper-pagination-bottom: -5px;
+  }
+
+
+.swiper-slide img {
+    margin: 0 auto;
+    display: block;
+    width: 140px;
+    height: auto;
+    border-radius: 30px;
+}
+.swiper-button-next,
+.swiper-button-prevr {
+    width: 24px;
+    
+}
+
+
+@media screen and (min-width: 1200px) {
+    .gallery{
+        margin-bottom: 105px;
+    }
+
+    .gallery .container {
+        padding-left: 84px;
+        padding-right: 84px;
+    }  
+
+
+
+  .gallery_header {
+    margin-bottom: 32px;
+    font-size: 44px;
+  }
+
+
+  .swiper {
+    height: 620px;
+    width: 1000px;
+   
+    --swiper-navigation-size: 48px;         /* Размер кнопок */
+      
+    --swiper-navigation-sides-offset: -5px; /* Смещение от боков */
+          
+    --swiper-pagination-bottom: -6px;
+  }
+
+  .swiper-slide img {
+   
+    width: 280px;
+    border-radius: 30px;
+}
+}
