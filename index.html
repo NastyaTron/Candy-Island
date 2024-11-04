@@ -17,7 +17,7 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/Candy-island/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Candy-island/assets/styles-4567070e.css">
+    <link rel="stylesheet" href="/Candy-island/assets/styles-825111b3.css">
   </head>
   <body>
     <header class="header" id="headerContainer">
@@ -84,23 +84,38 @@
       Dive into a delicious adventure filled with sweet challenges and candy
       fun!
     </h2>
+
+   
+
+
+
+
     <div class="image_container main-image">
-      <img
-  srcset="/Candy-island/assets/home_image_clr-913a03be.png 1x, /Candy-island/assets/home_image_clr_2x-48470370.png 2x"
-  src="/Candy-island/assets/home_image_clr-913a03be.png"
-  alt="screenshots from game"
-/>
-     
+      <picture>
+        <source
+          srcset="/Candy-island/assets/desktop_1x_clr-969ec452.png 1x, /Candy-island/assets/desktop_2x_clr-2c20fe1d.png 2x" 
+          media="(min-width: 1200px)"
+          
+        />
+        <source
+          srcset="/Candy-island/assets/mobile_1x_clr-876729b2.png 1x, /Candy-island/assets/mobile_2x_clr-374b8d62.png 2x"
+          media="(max-width: 1199.98px)"
+        />
+        <img src="/Candy-island/assets/mobile_1x_clr-876729b2.png" alt="screenshots from game"  width="276" height="254"/>
+      </picture>
     </div>
     <button type="button" class="google-button">
-      <a href="https://play.google.com/store/apps/details?id=com.zymobile.candy.island.sweet&pli=1">
-      <div class="image-container">
-        <img src="/Candy-island/assets/button-5e907bb9.png" alt="logo googleplay" />
-      </div>
-    </a>
+      <a
+        href="https://play.google.com/store/apps/details?id=com.zymobile.candy.island.sweet&pli=1"
+      >
+        <div class="image-container">
+          <img src="/Candy-island/assets/button-5e907bb9.png" alt="logo googleplay" />
+        </div>
+      </a>
     </button>
   </div>
 </section>
+
 
     <section id="gallery">
   <div class="container">
