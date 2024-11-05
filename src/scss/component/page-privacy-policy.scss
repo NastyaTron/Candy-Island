@@ -1,18 +1,22 @@
-.body {
-  padding-top: 80px;
-}
-
 .back-home {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  width: 25px;
+  @media (min-width: 1200px) {
+    width: 200px;
+  }
+}
+.link-text {
   display: none;
   @media (min-width: 1200px) {
     display: flex;
-    align-items: center;
-    gap: 4px;
-    text-decoration: underline;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 24px;
-    letter-spacing: 0.05em;
+    padding-left: 4px;
   }
 }
 .polici-container ul {
@@ -28,10 +32,10 @@
 }
 .polici-container {
   max-width: 320px;
-  margin: 0px auto 46px auto;
+  margin: 24px auto 44px auto;
   @media (min-width: 1200px) {
     max-width: 1200px;
-    margin: 0px auto 52px auto;
+    margin: 80px auto 52px auto;
   }
 }
 .polici-titel {
@@ -57,10 +61,25 @@
   letter-spacing: 0.02em;
   line-height: 1.3;
   padding-bottom: 16px;
-  padding-left: 17px;
-  padding-right: 17px;
+  padding-left: 16px;
+  padding-right: 16px;
   @media (min-width: 1200px) {
     font-size: 20px;
     padding-bottom: 28px;
+    padding-left: 102px;
+    padding-right: 102px;
+  }
+}
+.polici-logo {
+  @media (min-width: 1200px) {
+    display: none;
+  }
+}
+.polici-header {
+  display: flex;
+  gap: 40px;
+  margin-left: 17px;
+  @media (min-width: 1200px) {
+    margin-left: 102px;
   }
 }

@@ -4,14 +4,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 25px 0;
-  gap: 11px;
+  padding: 24px 0;
+  gap: 12px;
   @media (min-width: 1200px) {
     max-width: 1200px;
-    flex-direction: row;
-    padding: 48px 82px 60px 0;
-    justify-content: flex-end;
-    gap: 20px;
+    padding: 36px 0;
+    justify-content: center;
+    gap: 16px;
   }
 }
 .footer-text {
@@ -44,7 +43,6 @@
   font-size: 8px;
   letter-spacing: 0.01em;
   line-height: 1;
-  text-decoration: underline;
   text-decoration-skip-ink: none;
   @media (min-width: 1200px) {
     font-size: 16px;
@@ -53,4 +51,5 @@
 }
 .footer-link-list {
   display: flex;
+  gap: 4px;
 }

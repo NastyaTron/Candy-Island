@@ -12,13 +12,21 @@
     />
     <link rel="stylesheet" href="./scss/styles.scss" />
   </head>
-  <body style="padding-top: 80px;">
-    <load ="partials/header.html" />
+  <body>
     <section>
       <div class="polici-container">
-        <div class="back-home">
-          <img src="./img/pages/Arrow 1.svg" width="25" height="16" />
-          <a href="./index.html"> Back to Home</a>
+        <div class="polici-header">
+          <a href="./index.html" class="back-home">
+            <img src="./img/pages/Arrow 1.svg" width="25" height="16" />
+            <p class="link-text">Back to Home</p></a
+          >
+          <img
+            src="/img/logo_1x.png"
+            alt="Logo"
+            width="150"
+            height="90"
+            class="polici-logo"
+          />
         </div>
         <h2 class="polici-titel">Privacy Policy</h2>
         <p class="polici-text">
@@ -130,43 +138,5 @@
       </div>
     </section>
     <load ="partials/footer.html" />
-    <script>
-      document.addEventListener('DOMContentLoaded', function () {
-        const headerContainer = document.getElementById('headerContainer');
-
-        function loadHeader() {
-          fetch('./partials/header.html')
-            .then(response => {
-              if (!response.ok) {
-                throw new Error('Network response was not ok');
-              }
-              return response.text();
-            })
-            .then(data => {
-              headerContainer.innerHTML = data;
-              adjustHeaderVisibility();
-            })
-            .catch(error => {
-              console.error(
-                'There has been a problem with your fetch operation:',
-                error
-              );
-            });
-        }
-
-        function adjustHeaderVisibility() {
-          if (window.innerWidth >= 1200) {
-            headerContainer.style.display = 'none'; //
-          } else {
-            headerContainer.style.display = 'block'; //
-          }
-        }
-
-        window.addEventListener('resize', adjustHeaderVisibility);
-
-        loadHeader();
-        adjustHeaderVisibility();
-      });
-    </script>
   </body>
 </html>
