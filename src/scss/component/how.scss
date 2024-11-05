@@ -1,0 +1,53 @@
+.how-titel {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #000;
+  text-shadow: 0 4px 9px rgba(0, 0, 0, 0.54);
+  line-height: 2.7;
+  text-align: center;
+  padding-bottom: 16px;
+  @media (min-width: 1200px) {
+    font-size: 44px;
+  }
+}
+.how-img {
+  width: 136px;
+  height: 161px;
+  border-radius: 10px;
+  @media (min-width: 1200px) {
+    width: 304px;
+    height: 300px;
+  }
+}
+.how-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 22px 12px;
+  margin-left: 16px;
+  margin-right: 16px;
+  @media (min-width: 1200px) {
+    gap: 36px 64px;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+.how-palm {
+  display: none;
+  @media (min-width: 1200px) {
+    display: flex;
+  }
+}
+.how-titel-img {
+  display: flex;
+  padding-top: 62px;
+  justify-content: center;
+  @media (min-width: 1200px) {
+    justify-content: normal;
+    gap: 20px;
+    padding-top: 80px;
+    align-items: center;
+    padding-left: 456px;
+  }
+}
