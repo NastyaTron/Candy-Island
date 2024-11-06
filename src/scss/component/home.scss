@@ -2,6 +2,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 62px;
+  scroll-margin-top: 157px;
  
 }
 
@@ -37,12 +38,16 @@
   margin-bottom: 32px;
 }
 
+.button {
+  text-align: center;
+}
+
 .google-button {
-  display: block;
-  margin: 0 auto;
-  padding: 0px 0px;
+  display: inline-block;
+
   border: none;
 }
+
 .google-button:hover,
 :focus {
   box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.71);
@@ -52,6 +57,7 @@
 @media screen and (min-width: 1201px) {
   .home{
     margin-bottom: 80px;
+    scroll-margin-top: 192px;
   }
   .image_container > img {
   

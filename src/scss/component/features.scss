@@ -1,3 +1,14 @@
+#features {
+  scroll-margin-top: 157px;
+ 
+  @media (min-width: 1200px) {
+    scroll-margin-top: 192px;
+  }
+
+
+}
+
+
 .features-container {
   max-width: 320px;
   padding: 62px 32px;
@@ -80,11 +91,13 @@
   }
 }
 .features-button {
-  padding: 0;
+ 
   border: none;
   background: none;
-  display: block;
-  margin: 0 auto;
+  text-align: center;
+}
+.features-button a {
+  display: inline-block;
 }
 .features-button img {
   display: block;
@@ -97,7 +110,7 @@
     height: 81px;
   }
 }
-.features-button:hover,
+.features-button a:hover,
 :focus {
   box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.71);
   border-radius: 5px;
