@@ -9,6 +9,16 @@
 }
 
 
+.features .container {
+  
+  max-width: 320px;
+  @media (min-width: 1200px) {
+    max-width: 1200px;
+  }
+
+
+}
+
 .features-container {
   max-width: 320px;
   padding: 62px 32px;

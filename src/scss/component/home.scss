@@ -6,6 +6,16 @@
  
 }
 
+.home .container {
+  
+  max-width: 320px;
+  @media (min-width: 1200px) {
+    max-width: 1200px;
+  }
+
+
+}
+
 .main-title {
   margin-bottom: 14px;
   font-family: Montserrat;
