@@ -22,7 +22,7 @@
   max-width: 284px;
   position: relative;
   display: flex;
-  column-gap: 35px;
+  column-gap: 22px;
   // justify-content: center;
   align-items: center;
 }
@@ -87,7 +87,7 @@
 
 @media screen and (min-width: 1200px) {
   .header {
-    
+
   height: auto;
   }
   .header .container {
@@ -143,10 +143,10 @@
 
 .backdrop {
   position: fixed;
-  
-  
-  
-  
+
+
+
+
   // top: 0;
   // left: 0;
   width: 100%;
