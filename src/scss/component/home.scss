@@ -3,16 +3,18 @@
   margin-right: auto;
   margin-bottom: 62px;
   scroll-margin-top: 157px;
-  padding-left: 22px;
-  padding-right: 22px;
+  
  
 }
 
 .home .container {
-  
+  padding-left: 22px;
+  padding-right: 22px;
   max-width: 320px;
   @media (min-width: 1200px) {
     max-width: 1200px;
+    padding-left: 128px;
+  padding-right: 128px;
   }
 
 
@@ -73,8 +75,7 @@
   .home{
     margin-bottom: 80px;
     scroll-margin-top: 192px;
-    padding-left: 128px;
-  padding-right: 128px;
+    
   }
   .image_container > img {
   
