@@ -3,6 +3,8 @@
   margin-right: auto;
   margin-bottom: 62px;
   scroll-margin-top: 157px;
+  padding-left: 22px;
+  padding-right: 22px;
  
 }
 
@@ -17,7 +19,10 @@
 }
 
 .main-title {
+
+  max-width: 250px;
   margin-bottom: 14px;
+  margin: 0 auto;
   font-family: Montserrat;
   font-size: 26px;
   font-weight: 700;
@@ -64,10 +69,12 @@
   border-radius: 5px;
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1200px) {
   .home{
     margin-bottom: 80px;
     scroll-margin-top: 192px;
+    padding-left: 128px;
+  padding-right: 128px;
   }
   .image_container > img {
   
@@ -83,6 +90,9 @@
     font-size: 24px;
   }
   .main-title {
+    max-width: 100%;
+  
+  margin:  auto;
     font-size: 52px;
   }
   .google-button img {
